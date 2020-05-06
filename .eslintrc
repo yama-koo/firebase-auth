@@ -88,6 +88,13 @@
     "react/jsx-wrap-multilines": ["error", { "declaration": false, "assignment": false }], // https://github.com/prettier/prettier/issues/1009
     "react/jsx-fragments": "off",
     "react/button-has-type": "off",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
     /**
      * jsx-a11y
      */

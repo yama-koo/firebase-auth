@@ -1,0 +1,22 @@
+[debug] [2020-05-06T05:13:06.675Z] ----------------------------------------------------------------------
+[debug] [2020-05-06T05:13:06.676Z] Command:       /Users/kouta/.nodebrew/node/v13.7.0/bin/node /Users/kouta/.nodebrew/current/bin/firebase serve --only hosting:yama-koo-auth-test
+[debug] [2020-05-06T05:13:06.676Z] CLI Version:   8.0.0
+[debug] [2020-05-06T05:13:06.676Z] Platform:      darwin
+[debug] [2020-05-06T05:13:06.677Z] Node Version:  v13.7.0
+[debug] [2020-05-06T05:13:06.677Z] Time:          Wed May 06 2020 14:13:06 GMT+0900 (Japan Standard Time)
+[debug] [2020-05-06T05:13:06.678Z] ----------------------------------------------------------------------
+[debug] [2020-05-06T05:13:06.678Z] 
+[debug] [2020-05-06T05:13:06.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-06T05:13:06.686Z] > authorizing via signed-in user
+[debug] [2020-05-06T05:13:06.686Z] [iam] checking project yama-koo for permissions ["firebase.projects.get"]
+[debug] [2020-05-06T05:13:06.688Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/yama-koo:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-06T05:13:07.506Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 May 2020 05:13:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=676","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-06T05:13:07.508Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/yama-koo  
+ 
+[debug] [2020-05-06T05:13:08.209Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 May 2020 05:13:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-06T05:13:08.211Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/yama-koo/webApps/-/config  
+ 
+[debug] [2020-05-06T05:13:09.244Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 May 2020 05:13:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[yama-koo-auth-test]: Serving hosting files from: build
+[info] ✔  hosting[yama-koo-auth-test]: Local server: http://localhost:5000
